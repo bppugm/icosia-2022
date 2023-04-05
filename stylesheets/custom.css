@@ -1,7 +1,7 @@
 /*!
- * Custom stylesheet for ICST website
+ * Custom stylesheet for ICoSIA website
  * Created by Jaybaeta (https://github.com/jaybaeta) on 2017
- * Modified by Wildan (https://github.com/w1lldone) and Rafieiy (https://github.com/davieiycode) on 2019-2022
+ * Modified by Wildan (https://github.com/w1lldone) and Rafieiy (https://github.com/davieiycode) on 2019-2023
  */
 
 /* MAGNIFYING GLASS by w3schools (https://www.w3schools.com/howto/howto_js_image_magnifier_glass.asp) */
@@ -109,7 +109,7 @@ code {
 
 .nav-link:hover .badge-ico-process,
 .nav-link.active .badge-ico-done {
-  color: #1d73cc !important;
+  color: #039b36 !important;
   background-color: transparent !important;
   font-family: 'Dosis' !important;
   text-transform: uppercase;
@@ -121,7 +121,7 @@ code {
 
 .nav-link.active .badge-ico-process,
 .nav-link.active .badge-ico-done {
-  color: #1d73cc !important;
+  color: #039b36 !important;
   background-color: transparent;
   font-family: 'Dosis' !important;
   text-transform: uppercase;
@@ -144,33 +144,33 @@ code {
 }
 
 .nav-item .nav-link:hover {
-  border-bottom: 2px solid #1d73cc;
+  border-bottom: 2px solid #039b36;
   padding-bottom: 3px;
-  color: #1d73cc !important;
+  color: #039b36 !important;
 }
 
 .nav-item a.active span {
-  background: #1d73cc !important;
+  background: #039b36 !important;
 }
 
 .nav-item a.active {
-  color: #1d73cc !important;
+  color: #039b36 !important;
 }
 
 /* NAV Pills */
 
 .nav-pills .nav-link {
   border-radius: .5rem !important;
-  color: #1d73cc;
+  color: #039b36;
 }
 
 .nav-pills .nav-link:hover{
-  background-color: #1f73cc;
+  background-color: #039b36;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #1d73cc !important;
+  color: #039b36 !important;
   background-color: #ffc1071f;
 }
 
@@ -556,7 +556,7 @@ code {
   }
 }
 
-/* THE ICST 2020 IN IMAGES AND WORDS */
+/* THE ICoSIA 2020 IN IMAGES AND WORDS */
 
 /* TEXT */
 
@@ -867,12 +867,12 @@ code {
 /* BACKGROUNDS */
 
 .bg-primary {
-  background-color: #1d73cc !important;
+  background-color: #039b36 !important;
 }
 
 .btn-primary {
-  background-color: #1d73cc !important;
-  border-color: #1d73cc !important;
+  background-color: #039b36 !important;
+  border-color: #039b36 !important;
   font-family: 'Dosis' !important;
   text-transform: uppercase;
   font-weight: 800;
@@ -880,8 +880,8 @@ code {
   font-size: 14px;
 }
 
-.bg-pattern-icst {
-  background-image: linear-gradient(to right, #1f73cc50, #3ab77750);
+.bg-pattern-icosia {
+  background-image: linear-gradient(to right, #039b3650, #007bff50);
 }
 
 /* speakers */
@@ -925,12 +925,12 @@ p {
 /* Links */
 
 a {
-  color: #1f73cc;
+  color: #039b36;
   text-decoration: none;
 }
 
 a:hover {
-  color: #40bb6a;
+  color: #1f73cc;
   text-decoration: underline;
 }
 
@@ -948,19 +948,19 @@ li a:hover {
 }
 
 .nav-primary a:hover {
-  color: #40bb6a;
+  color: #039b36;
   text-decoration: none;
 }
 
 .btn-transparent {
-  --bs-btn-color: #1d73cc;
+  --bs-btn-color: #039b36;
   --bs-btn-bg: none;
   --bs-btn-border-color: none;
-  --bs-btn-hover-color: #40bb6a;
+  --bs-btn-hover-color: #1f73cc;
   --bs-btn-hover-bg: none;
   --bs-btn-hover-border-color: none;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #40bb6a;
+  --bs-btn-active-color: #1f73cc;
   --bs-btn-active-bg: none;
   --bs-btn-active-border-color: none;
   --bs-btn-active-shadow: none;
