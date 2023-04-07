@@ -1,29 +1,31 @@
 <!doctype html>
 <html>
+
 <head>
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta charset="utf-8">
-  <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-  
-  <title>Submissions - ICST 2020</title>
-  
+  <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    name="viewport">
+
+  <title>Submission - ICoSIA 2022</title>
+
   <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="../fonts/font-awesome/css/all.css">
-  
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700,800" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/985103748a.js" crossorigin="anonymous"></script>
+
   <!-- CSS -->
-  <link href="../stylesheets/site.css" rel="stylesheet" />
+  <link href="../stylesheets/bootstrap.css" rel="stylesheet" />
   <link href="../stylesheets/custom.css" rel="stylesheet" />
-  
+
   <!-- JAVASCRIPT -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
-  <script src="../javascripts/all.js"></script>
-  <script defer src="../fonts/font-awesome/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="../javascripts/bootstrap.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113279197-1"></script>
   <script src="../javascripts/gtag.js"></script>
-  
-  
+
+
   <!-- FAVICON -->
   <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="../images/favicon/favicon-32x32.png" sizes="32x32">
@@ -32,115 +34,464 @@
   <link rel="shortcut icon" href="../images/favicon/favicon.ico">
   <meta name="msapplication-config" content="../images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  
+
 </head>
 
 <body class="index">
-  
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #1d73cc; border-bottom: 1px solid #1a6abe">
-    <a class="navbar-brand btn btn-light" type="button" id="dropdownMenuButton" data-toggle="dropdown"><img src="../images/logos/logo.svg" width="100px"></a>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" href="http://icosia.ugm.ac.id/"><img src="http://icosia.ugm.ac.id/2020/images/logos/logo.svg" width="100px"></a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="http://biomic.ugm.ac.id/"><img src="http://biomic.ugm.ac.id/2020/images/logos/logo.svg" width="100px"></a>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#icst-nav" aria-controls="icst-nav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="icst-nav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="article/about.html">About ICST</a></li>
-        <li class="nav-item"><a class="nav-link" href="article/symposia.html">Satellite events</a></li>
-        <li class="nav-item"><a class="nav-link" href="http://ugm.id/icst2020programs">Programs</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://docs.google.com/document/d/e/2PACX-1vS2oK5AItI5_EXTIbFOony-NdCNKnkfL-rgvl8V3Y-BWcmr8Lxfq5soGACCDodZEsKNLG60aNWyQ1TC/pub">Presentation</a></li>
-        <li class="nav-item"><a class="nav-link" href="article/support.html">Helps</a></li>
-      </ul>
-    </div>
-    <!-- REGISTER -->
-    <a href="submissions.html" class="btn btn-warning nav-register"><i class="fas fa-ticket-alt"></i>&nbsp;Participate</a>
-  </nav>
-  
-  <!-- CONTENTS -->
-  <div id="top">
-    <div class="container alert alert-info alert-dismissible fade show" role="alert">
-      Due to the extraordinary global health issue with the coronavirus disease (COVID-19), ICST 2020 will be held <b>virtually</b> on <b>7&ndash;8 September 2020</b>.
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-    </div>
-    <div class="container py-5">
-    <h1 class="pb-5">I want to participate in the ICST 2020 as</h1>
-      <div class="row pb-5">
-        <!-- Presenter -->
-        <div class="col-lg-6">
-          <span tabindex="0" data-toggle="tooltip" title="Need to submit a manuscript. Has been closed on June 15">
-            <button class="btn btn-lg btn-outline-dark btn-block" style="font-size: 2.5rem; filter: drop-shadow(8px 8px 10px grey); pointer-events: none;" type="button" disabled><i class="fas fa-microphone-alt"></i>&nbsp;&nbsp;Presenter</button>
-          </span>
-          <!-- <a href="symposia.html" class="btn btn-lg btn-outline-dark btn-block" title="Need to submit a manuscript. Open until June 15" style="font-size: 2.5rem; filter: drop-shadow(8px 8px 10px grey);"><i class="fas fa-microphone-alt"></i>&nbsp;&nbsp;Presenter</a> -->
-        </div>
-        <span class="py-5 d-sm-block d-lg-none"></span>
-        <!-- Non-presenter -->
-        <div class="col-lg-6">
-          <span tabindex="0" data-toggle="tooltip" title="No need to submit a manuscript. Open registration on August 28">
-            <button class="btn btn-lg btn-outline-dark btn-block" style="font-size: 2.5rem; filter: drop-shadow(8px 8px 10px grey); pointer-events: none;" type="button" disabled><i class="fas fa-eye"></i>&nbsp;&nbsp;Non-presenter</button>
-          </span>
-        </div>
+
+  <header style="background-color: #f8f7fd; box-shadow: 0 1px 2px 0 #e1e5ea;">
+    <!-- NAVBAR -->
+    <nav class="navbar bg-primary pt-1">
+      <div class="container">
+        <a class="navbar-brand"><span class="nav me-auto pt-1" style="color: #fff; font-size: 9pt">Yogyakarta,
+            Indonesia. 22–23 November 2022</span></a>
+        <ul class="nav">
+          <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
+              href="https://twitter.com/icosiaugm" target="_blank"><i class="fab fa-twitter fa-lg"></i></a></li>
+          <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
+              href="https://instagram.com/icosiaugm" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+          <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
+              href="https://www.youtube.com/@icosiaugm5757" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
+          </li>
+          <li class="nav-item"><a class="py-2 px-2 nav-primary" style="color:#fff; font-size: 7pt;"
+              href="mailto:icosia@ugm.ac.id" target="_blank"><i class="fas fa-envelope fa-lg"></i></a></li>
+        </ul>
       </div>
-    </div>
-    
-  </div>
-  
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container py-4">
-      
-      <!-- Footer nav -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand"><img src="../images/logos/logo.svg" width="100px" style="filter: grayscale();"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footer-nav" aria-controls="footer-nav" aria-expanded="false" aria-label="Toggle navigation">
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand"><img src="../images/logos/logo.svg" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+          aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="footer-nav">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="../index.html">Important dates</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">Committee</a></li>
-            <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
-            <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
-            <li class="nav-item"><a class="nav-link" href="fees.html">Fees</a></li>
-            <li class="nav-item"><a class="nav-link" href="explore.html">Explore</a></li>
-            <li class="nav-item"><a class="nav-link" href="support.html">Contact us</a></li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="https://twitter.com/icstugm" target="_blank"><i class="fab fa-twitter fa-lg"></i><span class="d-lg-none d-sm-block">  icstugm</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://instagram.com/icstugm" target="_blank"><i class="fab fa-instagram fa-lg"></i><span class="d-lg-none d-sm-block">  icstugm</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCQU0DiHt6DhN3h9ojnBId7Q" target="_blank"><i class="fab fa-youtube fa-lg"></i><span class="d-lg-none d-sm-block">  YouTube</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="https://flic.kr/icst" target="_blank"><i class="fab fa-flickr fa-lg"></i><span class="d-lg-none d-sm-block">  icst</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="mailto:icst@ugm.ac.id" target="_blank"><i class="fas fa-envelope fa-lg"></i><span class="d-lg-none d-sm-block">  icst@ugm.ac.id</span></a></li>
-          </ul>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+          aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">ICoSIA 2022</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="satellite-events.html">Satellite
+                  events</a></li>
+              <li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
+              <li class="nav-item"><a class="nav-link active" href="author-guidelines.html">Author</a></li>
+              <li class="nav-item"><a class="nav-link" href="fee.html">Fee</a></li>
+              <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
+              <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://icosiaugm.tawk.help/">Help</a></li>
+            </ul>
+          </div>
         </div>
-      </nav>
-      
-      <hr class="mx-auto my-3" style="border-color: #e3e3f3;">
-      
-      <!-- Sponsors -->
-      <div class="text-center">
-        <img src="../images/logos/ugm.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
-        <img src="../images/publication/ieee-logo.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
-        <img src="../images/publication/scientificnet-logo.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
-        <img src="../images/publication/e3s-logo.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
-        <img src="../images/publication/scopus.svg" class="px-3 my-2" style="filter: grayscale();" height="35px">
-        <!-- <img src="../images/publication/ajstd-logo.svg" class="px-3 my-2" style="filter: grayscale();" height="35px"> -->
+        <button class="btn btn-primary nav-register" disabled>Register</button>
       </div>
-      
-      <hr class="mx-auto my-3" style="border-color: #e3e3f3;">
-      
+    </nav>
+  </header>
+
+  <h1>Manuscript <span style="color: #1f73cc;">submission</span></h1>
+
+  <section>
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="../images/stock/hi2.jpg" width="100%">
+        </div>
+        <div class="col-lg-8">
+          <br class="d-none d-lg-block"><br class="d-none d-lg-block"><br class="d-none d-lg-block"><br>
+          <h2>Hi, applicants!</h2>
+          <p>To participate as a presenter in the ICoSIA 2022, there are nine steps that you need to follow.</p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <!-- 1. Create an EDAS account -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse1" aria-expanded="false" aria-controls="panelsStayOpen-collapse1">
+              <strong> 1. Create an EDAS account</strong>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class="alert alert-info">
+
+                Before submitting your manuscript, the authors need to have an EDAS account. If you already have an EDAS account, you can go to the next step to submit your manuscript using your registered account.
+                
+                </div>
+                <h6>1. Go to the EDAS site</h6>
+                Type <a href="https://edas.info/newPaper.php?c=30087" target="_blank" rel="noopener">edas.info</a> on your browser and click <code>Create a new account</code> below the login form.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-create-new-account.png" />
+                
+                <hr style="width: 75%" />
+                
+                <h6>2. Entry your details</h6>
+                Type your information in the required fields (marked with a red asterisk), you can complete other information after the registration. At the end of the form, tick the box “I consent to the EDAS privacy and policies”, and click <code>Add this person</code> to create your account.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-create-new-account-2.png" />
+                
+                Your account has been created and needs moderation for at least 24 hours.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-create-new-account-3.png" />
+                
+                <hr style="width: 75%" />
+                
+                <h6>3. Set up your password</h6>
+                Set up your initial password by clicking the link on your email. You could find the email in your inbox or spam mail. If you still didn't get the email from the EDAS system, feel free to <a href="mailto:icosia@ugm.ac.id">contact us</a> or <a href="mailto:help@edas.info">EDAS Helpdesk</a>. Please note that we use third-party software, so you cannot request it at the end of time.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-create-new-account-4.png" />
+                
+                Your initial password has been created.
+                <div class="alert alert-success">
+                <h6>Your account has been created!</h6>
+                Now, you can go to the next step to submit your manuscript in the system.
+                
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Submit your manuscript -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false" aria-controls="panelsStayOpen-collapse2">
+              2. Submit your manuscript
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class="alert alert-info">
+
+                After creating an EDAS account, you can submit your manuscript in the system. To maximize our services, you need to complete the following details before submitting your manuscript:
+                <ul>
+                   <li>The registered EDAS account of all authors in your manuscript.</li>
+                   <li>Manuscript format and content in accordance with the author guidelines.</li>
+                </ul>
+                <a href="https://edas.info/N30087" target="_blank" rel="noopener"><button>Submit my manuscript</button></a>
+                
+                </div>
+                <h6>1. Log in to the ICoSIA 2022 EDAS site</h6>
+                Type <a href="https://edas.info/N30087" target="_blank" rel="noopener"> edas.info/N30087</a> and log in to your EDAS account.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas-login.png" />
+                
+                <hr style="width: 75%" />
+                
+                <h6>2. Entry your paper details</h6>
+                Once you are logged in, click the <code>symposium name</code> —under the Track column—that matches on your manuscript to be registered.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-submit-new-paper.png" />
+                
+                Enter your manuscript details, tick the box “Add yourself as author” and click <code>Submit</code> button to register your manuscript.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-submit-new-paper-2.png" />
+                
+                Your manuscript has successfully been registered. You will now be able to view your manuscript in your EDAS account.
+                
+                <hr style="width: 75%" />
+                
+                <h6>3. Add your manuscript's author(s)</h6>
+                Click <code>Add authors</code> to add your co-authors (if available).
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-add-other-author.png" />
+                
+                Write your co-author’s name, EDAS ID, or email address. Alternatively, you can simply select your co-author’s name from the co-author list. Then, click <code>Add author</code> button.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-add-other-author-2.png" />
+                
+                Select the radio button before your co-author’s name and click <code>Select this person</code> button to confirm it.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-add-other-author-3.png" />
+                
+                <hr style="width: 75%" />
+                
+                <h6>4. Upload your document</h6>
+                After adding your co-author, click <code>Upload the manuscript</code> to upload your document.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-upload-document.png" />
+                
+                Tick the box “I have checked that the authors listed in the manuscript are the same as the current list of authors on the paper record”, choose your document, and click <code>Upload ...</code> button.
+                <div class="alert alert-warning">
+                
+                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Please ensure your document is in the <code>PDF</code> format.
+                
+                </div>
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-upload-document-2.png" />
+                
+                Your manuscript has been uploaded.
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-upload-document-3.png" />
+                
+                If you still require further assistance, please feel free to <a href="mailto:icosia@ugm.ac.id">contact us</a>.
+                
+                <!-- next step -->
+                <div class="alert alert-success">
+                <h6>Your manuscript has been uploaded!</h6>
+                Your manuscript is under review process and we will notify you again soon.
+                
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Peer-review process -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false" aria-controls="panelsStayOpen-collapse3">
+              3. Peer-review process
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <img style="max-width: 25vw" src="https://bppugm.github.io/icst-2020/images/stock/accepted.svg" />
+
+Your manuscript will go to the blind review. You can check the status of your manuscript anytime from your account in the EDAS. We will notify you too via email when the review process was finished.
+
+<a href="https://edas.info" target="_blank" rel="noopener"><button>Check my manuscript</button></a>&nbsp;&nbsp;<a href="https://icosia.ugm.ac.id/editorial-policy/" target="_blank" rel="noopener"><button>Editorial policy</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapse4">
+              4. Pay the conference fees
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <div class="alert alert-info">
+
+                If your manuscript has been accepted to be presented at the conference, you need to pay the conference fees before uploading the final manuscript. FYI, one manuscript can only be delivered by one presenter. However, one presenter can deliver more than one manuscript.
+                
+                <a href="https://edas.info" target="_blank" rel="noopener"><button>Check my paper ID</button></a>
+                
+                </div>
+                <h6>1. Find out how much you must pay</h6>
+                Read the <a href="https://icosia.ugm.ac.id/2022-2/fees/" target="_blank" rel="noopener">conference fees</a> to know how much you need to pay.
+                
+                <hr style="width: 75%" />
+                
+                <h6>2. Make your payment</h6>
+                Payments cannot be made in cash; they must be via credit card or bank transfer to the ICoSIA UGM account.
+                
+                <hr style="width: 75%" />
+                
+                <h6>3. Confirm your payment</h6>
+                Before confirming your payment in the confirmation form, you need to prepare these following items:
+                <ul>
+                   <li style="list-style-type: none">
+                <ul>
+                   <li>The scanned or screenshot of your payment proof in JPG / JPEG / PDF format.</li>
+                   <li>Your paper ID(s).</li>
+                   <li>The presenter name.</li>
+                </ul>
+                </li>
+                </ul>
+                <a href="https://edas.info" target="_blank" rel="noopener"><button>Check my paper ID</button></a>
+                
+                You can find your paper ID in the EDAS as shown by this following image:
+                
+                <img class="rounded mb-3 img-tutorial" src="https://bppugm.github.io/icst-2020/images/tutorials/edas/edas-paperID.png" />
+                
+                <hr style="width: 75%" />
+                
+                <h6>4. Wait for the next 2–3 business days for us to verify your payment</h6>
+                Please make sure not to miss the date. The deadline for the payment confirmation is on November 17, but you will get an early-bird discount if you pay before November 13. If you did not pay via credit card in the EDAS, you do not need to click the register icon in the EDAS. The committee will register it for you after reviewing your payment.
+                
+                If you still require further assistance, please feel free to <a href="mailto:icosia@ugm.ac.id">contact us</a>.
+                
+                <!-- next step -->
+                <div class="alert alert-success">
+                <h6>The 4th step has been cleared!</h6>
+                You can prepare your camera-ready manuscript while waiting the verification of your payment.
+                
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse5" aria-expanded="false" aria-controls="panelsStayOpen-collapse5">
+              5. Check your manuscript
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse5" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              After you get the notification of acceptance, you need to finalize your final manuscript in accordance with the author guidelines and review results.
+The submitted camera-ready paper should be written according to the author guidelines.
+The corresponding author must check the title, list of authors, and their affiliations in the EDAS system and their paper. Any revision could not be made after uploading the camera-ready version by November 16.
+
+<div class="alert alert-success"><h6>The manuscript is ready to upload!</h6>
+Now, you can upload your camera-ready manuscript to the system.
+
+</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse6" aria-expanded="false" aria-controls="panelsStayOpen-collapse6">
+              6. Submit final manuscript
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse6" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <h6>1. Submit the final manuscript</h6>
+In the EDAS dashboard page, click your paper title and upload the <code>PDF</code> documents by clicking the cloud icon in <code>Final manuscript</code>.
+<h6>2. Select <b>one</b> of your presenter</h6>
+By default, the author who submitted a paper will be presenting at the conference. If the submitter of your paper is not indicating the presenter, please define it in EDAS paper page. If you still require further assistance, please feel free to <a href="mailto:icosia@ugm.ac.id">contact us</a>.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse7" aria-expanded="false" aria-controls="panelsStayOpen-collapse7">
+              7. Submit the presentation document
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse7" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              1. Go to the <a href="https://www.edas.info/">EDAS page</a>.
+2. Click on your paper title.
+3. Approve the public release (if available).
+4. Upload your presentation document via "Presentation" option.
+If you have any issues with uploading your presentation, please <a href="mailto:icosia@ugm.ac.id">contact us</a>. As a reminder, document that are not received by the deadline will be considered no-shows in accordance with the non-presented paper policy.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse8" aria-expanded="false" aria-controls="panelsStayOpen-collapse8">
+              8. Attend the conference
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapse8" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              After your final manuscript and presentation document has been submitted, you also need to attend the conference for a live Q&amp;A session. Please note that you need to make time on November 22-23 in the <a href="https://icosia.ugm.ac.id/2022-2/venue/">Grand Rohan Jogja</a>, because the conference program cannot be rescheduled and must be in accordance with the program given by the committee. If you are unable to attend for any reason, make sure that one of the co-authors can replace your presence. Change of attendance will result in a change of name listed in the certificate which we will send by email.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer pb-2" style="background-color: #f4fcf7; box-shadow: 0 1px 2px 0 #e1e5ea;">
+    <div class="container">
+      <!-- Sponsors -->
+      <div class="text-center pt-3">
+        <img src="../images/logos/ugm.svg" class="px-3 my-2" style="filter: grayscale();" height="45px">
+        <img src="../images/publication/atlantis-press.svg" class="px-3 my-2" style="filter: grayscale();"
+          height="35px">
+        <img src="../images/publication/clarivate-analytics.svg" class="px-3 my-2" style="filter: grayscale();"
+          height="40px">
+      </div>
+      <hr class="mx-auto my-3" style="border-color: #ccc;">
+
+      <!-- Footer nav -->
+      <div class="row">
+        <div class="col-md-3">
+          <h6 style="color: #1f73cc">The conference</h6>
+          <p>
+            <a href="about.html">About</a><br>
+            <a href="../index.html#important-dates">Important dates</a><br>
+            <a href="speakers.html">Speakers</a><br>
+            <a href="about.html#advisor">Committees</a><br>
+            <a href="fee.html">Fee</a><br>
+            <a href="program.html">Program</a><br>
+            <a href="https://icosiaugm.tawk.help/">Help</a>
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h6 style="color: #1f73cc">Satellite events</h6>
+          <p>
+            <a href="agricultural-big-data-analysis.html">ABDA symposium</a><br>
+            <a href="agricultural-geography.html">AG symposium</a><br>
+            <a href="land-and-environmental-management.html">LEM symposium</a><br>
+            <a href="precision-nutrition-technology.html">PNT symposium</a><br>
+            <a href="smart-and-precision-farming.html">SPF symposium</a><br>
+            <a href="smart-genetics-resource-management-and-utilization.html">SGRMU symposium</a><br>
+            <a href="sustainable-food-production.html">SFP symposium</a>
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h6 style="color: #1f73cc">Author information</h6>
+          <p>
+            <a href="author-guidelines.html">Author guidelines</a><br>
+            <a href="editorial-policy.html">Editorial policy</a><br>
+            <a href="submission.html">Submission</a><br>
+          </p>
+          <h6 style="color: #1f73cc">Explore</h6>
+          <p>
+            <a href="venue.html">Conference venue</a><br>
+            <a href="https://ugm.ac.id/en" target="_blank">Universitas Gadjah Mada</a><br>
+            <a href="https://visitingjogja.jogjaprov.go.id/" target="_blank">The city of Yogyakarta</a>
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h6 style="color: #1f73cc">Connect</h6>
+          <p>
+            <i class="fa-solid fa-envelope"></i> <a href="mailto:icosia@ugm.ac.id"
+              target="_blank">icosia@ugm.ac.id</a><br>
+            <i class="fa-brands fa-square-twitter"></i> <a href="https://www.twitter.com/icosiaugm"
+              target="_blank">icosiaugm</a><br>
+            <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/icosiaugm"
+              target="_blank">icosiaugm</a><br>
+            <i class="fa-brands fa-square-twitter"></i> <a href="https://www.twitter.com/bpp_ugm"
+              target="_blank">BPP_UGM</a><br>
+            <i class="fa-brands fa-square-instagram"></i> <a href="https://www.instagram.com/publikasiugm"
+              target="_blank">publikasiugm</a>
+          </p>
+          <p>
+            <a href="https://icosiaugm.tawk.help/" target="_blank"><button type="button" class="btn btn-primary"><i
+                  class="fa-solid fa-headset"></i>&nbsp;&nbsp;ICoSIA UGM Helpdesk</button></a>
+          </p>
+        </div>
+      </div>
+
+      <hr class="mx-auto my-3" style="border-color: #ccc;">
+
       <!-- Credits -->
-      <p class="text-muted text-justify small">© 2020 <a target="_blank" href="https://publikasi.ugm.ac.id/en/">Badan Penerbit dan Publikasi UGM</a>. Website developed by <a target="_blank" href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using <a target="_blank" href="https://getbootstrap.com/docs/4.5.2/">Bootstrap 4.5.2</a>, and licenced as <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, <a target="_blank" href="https://github.com/bppugm/icst-2020/blob/master/LICENSE.md">unless otherwise stated</a>.
-        UGM and ICST logos © Universitas Gadjah Mada. Icons by <a target="_blank" href="http://fontawesome.io">Font Awesome 5.13.0</a> (Fonticons Inc. <a target="_blank" href="https://fontawesome.com/license"><i class="fab fa-creative-commons-pd-alt"></i></a>).
-        The International Conference on Science and Technology 2020, organized by <a target="_blank" href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>.
+      <p class="credit text-muted text-justify">The International Conference on Smart and Innovative Technology 2022,
+        organized by <a target="_blank" href="https://publikasi.ugm.ac.id/en/">BPP UGM</a>.
+        Website has been redeveloped by <a target="_blank" href="https://www.linkedin.com/in/rafieiy/">Rafieiy</a> using
+        <a target="_blank" href="https://getbootstrap.com/docs/5.3">Bootstrap v5.3.0-alpha3</a>,
+        and licenced as <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+          4.0</a>,
+        <a target="_blank" href="https://github.com/bppugm/icosia-2022">unless otherwise stated</a>.
+        UGM and ICoSIA logos © Universitas Gadjah Mada. Atlantis Press logo © Atlantis Press. Clarivate Analytics logo ©
+        Clarivate Analytics.
+        Symposia images by <a target="_blank" href="https://unsplash.com/photos/dBI_My696Rk">Chris Liverani</a> (<a
+          target="_blank" href="https://unsplash.com/license">Free to use</a>), <a target="_blank"
+          href="https://unsplash.com/photos/GNhlIrxu1h0">Red Zeppelin</a> (<a target="_blank"
+          href="https://unsplash.com/license">Free to use</a>), <a target="_blank"
+          href="https://unsplash.com/photos/w_a40DuyPAc">Karsten Würth</a> (<a target="_blank"
+          href="https://unsplash.com/license">Free to use</a>), <a target="_blank"
+          href="https://unsplash.com/photos/uQs1802D0CQ">Katie Smith</a> (<a target="_blank"
+          href="https://unsplash.com/license">Free to use</a>), <a target="_blank"
+          href="https://unsplash.com/photos/vpfEhvI5UE4">Richard Bell</a> (<a target="_blank"
+          href="https://unsplash.com/license">Free to use</a>), <a target="_blank"
+          href="https://unsplash.com/photos/2g9uIMeVKvk">National Cancer Institute</a> (<a target="_blank"
+          href="https://unsplash.com/license">Free to use</a>), and <a target="_blank"
+          href="https://unsplash.com/photos/iRqUgXM-gj0">Paul Einerhand</a> (<a target="_blank"
+          href="https://unsplash.com/license">Free to use</a>).
+        Icons by <a target="_blank" href="https://fontawesome.com/docs/changelog/">Font Awesome 6.4.0</a>
+        (Fonticons Inc. <a target="_blank" href="https://fontawesome.com/license"><i
+            class="fab fa-creative-commons-pd-alt"></i></a>).
+        Website © 2023 <a target="_blank" href="https://publikasi.ugm.ac.id/en/">Badan Penerbit dan Publikasi UGM</a>.
       </p>
-      
     </div>
   </footer>
-  
+
 </body>
+
 </html>
