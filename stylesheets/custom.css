@@ -174,47 +174,6 @@ code {
   background-color: #ffc1071f;
 }
 
-/* NAV Tabs */
-
-.nav-tabs {
-  border-bottom: 0px !important;
-}
-
-.nav-tabs .nav-item {
-  color: #1f73cc;
-  margin-bottom: 0px !important;
-}
-
-.nav-tabs .nav-link {
-  border: 0px !important;
-  border-radius: 0rem !important;
-}
-
-.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-top: solid 3px grey !important;
-  margin-top: -3px;
-}
-
-.nav-tabs .nav-link.disabled {
-  color: #6c757d;
-  background-color: #1d72cc1f;
-  border-color: transparent;
-}
-
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  background-color: #1f73cc;
-  border-top: solid 3px #ffc107 !important;
-  margin-top: -3px;
-  margin-bottom: -9px !important;
-}
-
-.nav-tabs .dropdown-menu {
-  margin-top: -1px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
 /* FOOTER */
 
 .footer {
@@ -993,6 +952,13 @@ p {
   font-size: 14px;
 }
 
+ol li {
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
 /* Links */
 
 a {
@@ -1036,12 +1002,53 @@ li a:hover {
   --bs-btn-active-border-color: none;
   --bs-btn-active-shadow: none;
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0d6efd;
-  --bs-btn-disabled-border-color: #0d6efd;
+  --bs-btn-disabled-bg: #1f73cc;
+  --bs-btn-disabled-border-color: #1f73cc;
 }
 
 .btn-transparent:hover {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
+}
+
+/* Table */
+
+.table {
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.table-primary {
+  --bs-table-color: #fff;
+  --bs-table-bg: #039b36;
+  --bs-table-border-color: #039b36;
+  color: var(--bs-table-color);
+  border-color: var(--bs-table-border-color);
+}
+
+.accordion-item {
+  font-family: 'Merriweather Sans';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.nav-tabs button {
+  color: #039b36 !important;
+  font-family: 'Dosis' !important;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: .5px;
+  --bs-btn-hover-color: #1f73cc;
+  --bs-btn-hover-bg: none;
+  --bs-btn-hover-border-color: none;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link.active {
+  color: #1f73cc !important;
 }
