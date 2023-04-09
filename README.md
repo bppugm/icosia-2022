@@ -7,7 +7,7 @@ This is the copy of website for The 3<sup>rd</sup> International Conference on S
 ## Credits
 
 ### Developer
-+ [@davieiycode](https://github.com/davieiycode)
++ [Rafieiy](https://github.com/davieiycode)
 
 ### Development
 
