@@ -1,4 +1,4 @@
-<a href="http://icosia.ugm.ac.id"><img src="https://github.com/bppugm/icosia-2022/blob/master/images/logos/logo.svg" height="142px" align="right"></a>
+<a href="http://icosia.ugm.ac.id"><img src="https://github.com/bppugm/icosia-2022/blob/main/images/logos/logo.svg" height="142px" align="right"></a>
 
 # Website for the ICoSIA UGM 2022
 
